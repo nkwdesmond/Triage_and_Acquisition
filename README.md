@@ -1,9 +1,18 @@
-# 📄 Volatile Data Collection Scripts
+# 📋 Volatile Data Collection Scripts
 
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Use Case](https://img.shields.io/badge/use--case-DFIR-purple)
 
-# Win_hostInfo_internet.bat
+## 🔮 Overview
+
+| Script | Description / Input Type |
+|--------|--------------------------|
+| Win_hostInfo_internet.bat | Collect Windows host & network information (requires internet) |
+| Win_hostInfo.bat | Collect Windows system, network, user, disk, task, process information |
+
+## 🦇 Parsers
+
+## Win_hostInfo_internet.bat
 Run with **administrator privileges** on a host with **internet access** to collect Windows host information (system, network) into an output txt file.<br><br>
 Collects the following (`command` used in parenthesis):
 - SYSTEM INFORMATION (`systeminfo`) 
@@ -16,7 +25,7 @@ Collects the following (`command` used in parenthesis):
 - PUBLIC IP (`nslookup myip.opendns.com resolver1.opendns.com`) 
 - TRACE ROUTE (`tracert -h 15 -w 500 8.8.8.8`) 
 
-# Win_hostInfo.bat
+## Win_hostInfo.bat
 Run with **administrator privileges** to collect Windows host information (system, network, user, disk, task, process) into an output txt file.<br><br>
 Collects the following (`command` used in parenthesis):
 - SYSTEM INFORMATION (`systeminfo`) 
