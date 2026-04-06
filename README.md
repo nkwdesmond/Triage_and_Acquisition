@@ -10,7 +10,7 @@
 | Win_hostInfo_internet.bat | Collect Windows host & network information (requires internet) |
 | Win_hostInfo.bat | Collect Windows system, network, user, disk, task, process information |
 
-## 🦇 Parsers
+## 🦇 Scripts
 
 ## Win_hostInfo_internet.bat
 Run with **administrator privileges** on a host with **internet access** to collect Windows host information (system, network) into an output txt file.<br><br>
